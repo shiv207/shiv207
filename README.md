@@ -82,7 +82,7 @@ Always learning in public. Always shipping.<br>
 >   <tr>
 >     <td width="320" valign="middle" align="center">
 >       <a href="https://github.com/shiv207/VLA_simulated_tests">
->         <img src="Project-Images/vla.png" alt="VLA Simulation preview" width="300" style="border-radius:12px;" />
+>         <img src="images/VLA.png" alt="VLA Simulation preview" width="300" style="border-radius:12px;" />
 >       </a>
 >     </td>
 >     <td valign="middle" style="padding:16px; vertical-align:middle;">
@@ -103,7 +103,7 @@ Always learning in public. Always shipping.<br>
 >   <tr>
 >     <td width="320" valign="middle" align="center">
 >       <a href="https://github.com/shiv207/MLX-voice-assistant">
->         <img src="Project-Images/mlx-voice.png" alt="MLX Voice Assistant preview" width="300" style="border-radius:12px;" />
+>         <img src="images/MLX.png" alt="MLX Voice Assistant preview" width="300" style="border-radius:12px;" />
 >       </a>
 >     </td>
 >     <td valign="middle" style="padding:16px; vertical-align:middle;">
@@ -124,7 +124,7 @@ Always learning in public. Always shipping.<br>
 >   <tr>
 >     <td width="320" valign="middle" align="center">
 >       <a href="https://github.com/shiv207/AX-0-chain-of-thought-">
->         <img src="Project-Images/ax0.png" alt="AX-0 preview" width="300" style="border-radius:12px;" />
+>         <img src="images/AX1.png" alt="AX-0 preview" width="300" style="border-radius:12px;" />
 >       </a>
 >     </td>
 >     <td valign="middle" style="padding:16px; vertical-align:middle;">
@@ -145,7 +145,7 @@ Always learning in public. Always shipping.<br>
 >   <tr>
 >     <td width="320" valign="middle" align="center">
 >       <a href="https://github.com/shiv207/Deepsearch-clone-opensource">
->         <img src="Project-Images/deepsearch.png" alt="Deepsearch preview" width="300" style="border-radius:12px;" />
+>         <img src="images/deepreasearch.png" alt="Deepsearch preview" width="300" style="border-radius:12px;" />
 >       </a>
 >     </td>
 >     <td valign="middle" style="padding:16px; vertical-align:middle;">
@@ -166,7 +166,7 @@ Always learning in public. Always shipping.<br>
 >   <tr>
 >     <td width="320" valign="middle" align="center">
 >       <a href="https://github.com/shiv207/AI_Roast_show">
->         <img src="Project-Images/roast.png" alt="AI Roast Show preview" width="300" style="border-radius:12px;" />
+>         <img src="images/chainofthought.png" alt="AI Roast Show preview" width="300" style="border-radius:12px;" />
 >       </a>
 >     </td>
 >     <td valign="middle" style="padding:16px; vertical-align:middle;">

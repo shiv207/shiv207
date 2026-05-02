@@ -66,7 +66,7 @@ Always learning in public. Always shipping.<br>
 <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="45"></a><img width="10">
 <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="45"></a><img width="10">
 <a href="https://neovim.io/"><img src="https://skillicons.dev/icons?i=neovim" width="45" alt="Neovim"></a><img width="10">
-<a href="https://developer.apple.com/xcode/"><img src="https://skillicons.dev/icons?i=xcode" width="45" alt="Xcode"></a><img width="10">
+<a href="https://developer.apple.com/xcode/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" width="45" alt="Xcode"></a><img width="10">
 <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" width="45" alt="Android Studio"></a><img width="10">
 <a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" width="45"></a>
 </p>

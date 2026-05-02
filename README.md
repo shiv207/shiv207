@@ -1,6 +1,6 @@
-<table>
-<tr>
-<td width="65%" valign="top">
+<table width="100%">
+  <tr>
+    <td width="65%" valign="top">
 
 # Hello, I'm Shivamsh 👾
 
@@ -10,22 +10,27 @@ I care about clean systems, minimal interfaces, and not making future-me suffer.
 
 Always learning in public. Always shipping.<br>
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-<b>Connect with me:</b><br/><br/>
-<a href="https://www.linkedin.com/in/shivamsh-s-r-4942742a3/"><img src="https://skillicons.dev/icons?i=linkedin" width="30"></a><img width="10">
-<a href="mailto:shivamshsr@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="30"></a><img width="10">
-<a href="https://github.com/shiv207"><img src="https://skillicons.dev/icons?i=github" width="30"></a><img width="10">
-<a href="https://x.com/RShivamsh"><img src="https://skillicons.dev/icons?i=twitter" width="30"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://komarev.com/ghpvc/?username=shiv207&label=Profile%20views&color=0e75b6&style=flat" align="bottom" />
-
-</td>
-
-<td width="29.25%" align="center" valign="middle">
-  <img src="images/rei.png" width="100%"/>
-</td>
-</tr>
+    </td>
+    <td width="29.25%" rowspan="2" align="center" valign="top">
+      <img src="images/rei.png" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="65%" valign="bottom">
+      <div style="display:flex; justify-content:space-between; align-items:flex-end; gap:16px; width:100%;">
+        <div>
+          <b>Connect with me:</b><br/><br/>
+          <a href="https://www.linkedin.com/in/shivamsh-s-r-4942742a3/"><img src="https://skillicons.dev/icons?i=linkedin" width="30"></a><img width="10">
+          <a href="mailto:shivamshsr@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="30"></a><img width="10">
+          <a href="https://github.com/shiv207"><img src="https://skillicons.dev/icons?i=github" width="30"></a><img width="10">
+          <a href="https://x.com/RShivamsh"><img src="https://skillicons.dev/icons?i=twitter" width="30"></a>
+        </div>
+        <div style="white-space:nowrap;">
+          <img src="https://komarev.com/ghpvc/?username=shiv207&label=Profile%20views&color=0e75b6&style=flat" />
+        </div>
+      </div>
+    </td>
+  </tr>
 </table>
 
 

@@ -47,7 +47,7 @@ Always learning in public. Always shipping.<br>
 <p align="left">
 <a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="45"></a><img width="10">
 <a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" width="45"></a><img width="10">
-<a href="https://huggingface.co/"><img src="https://skillicons.dev/icons?i=huggingface" width="45"></a><img width="10">
+<a href="https://huggingface.co/"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="45" alt="Hugging Face"></a><img width="10">
 <a href="https://github.com/ml-explore/mlx"><img src="https://skillicons.dev/icons?i=apple" width="45"></a><img width="10">
 <a href="https://streamlit.io/"><img src="https://skillicons.dev/icons?i=streamlit" width="45"></a>
 </p>

@@ -10,22 +10,15 @@ I care about clean systems, minimal interfaces, and not making future-me suffer.
 
 Always learning in public. Always shipping.<br>
 
-<br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
 
-<table width="100%">
-<tr>
-<td align="left" valign="bottom">
 <b>Connect with me:</b><br/><br/>
 <a href="https://www.linkedin.com/in/shivamsh-s-r-4942742a3/"><img src="https://skillicons.dev/icons?i=linkedin" width="30"></a><img width="10">
 <a href="mailto:shivamshsr@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="30"></a><img width="10">
 <a href="https://github.com/shiv207"><img src="https://skillicons.dev/icons?i=github" width="30"></a><img width="10">
 <a href="https://x.com/RShivamsh"><img src="https://skillicons.dev/icons?i=twitter" width="30"></a>
-</td>
-<td align="right" valign="bottom">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://komarev.com/ghpvc/?username=shiv207&label=Profile%20views&color=0e75b6&style=flat" />
-</td>
-</tr>
-</table>
 
 </td>
 

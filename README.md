@@ -4,7 +4,7 @@
 
 # Hello, I'm Shivamsh 👾
 
-I'm a CS undergrad who believes the best code is the kind you don't have to explain. I enjoy building things that sit at the intersection of software and the physical world — from AI systems to robots that run across your desk.<br>
+I'm a Robotics undergrad who believes the best code is the kind you don't have to explain. I enjoy building things that sit at the intersection of software and the physical world from AI systems to robots that run across your desk.<br>
 
 I care about clean systems, minimal interfaces, and not making future-me suffer. Currently deep in robotics, LLM tooling, and anything that blurs the line between software and the real world.<br>
 

@@ -23,23 +23,46 @@ Always learning in public. Always shipping.<br>
 </td>
 
 <td width="29.25%" align="center" valign="middle">
-  <!-- Swap for your own aesthetic image/gif -->
-  <img src="https://i.pinimg.com/736x/e6/a6/cc/e6a6ccf08c38edd428e13fe317f978af.jpg" width="100%"/>
+  <img src="images/rei.png" width="100%"/>
 </td>
 </tr>
 </table>
 
 
 # Tech Stack
+
+**Languages & Frameworks**
 <p align="left">
 <a href="https://en.cppreference.com/w/c"><img src="https://skillicons.dev/icons?i=c" width="45"></a><img width="10">
 <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=py" width="45"></a><img width="10">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="45"></a><img width="10">
 <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" width="45"></a><img width="10">
+<a href="https://kotlinlang.org/"><img src="https://skillicons.dev/icons?i=kotlin" width="45"></a><img width="10">
 <a href="https://reactjs.org/"><img src="https://skillicons.dev/icons?i=react" width="45"></a><img width="10">
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" width="45"></a><img width="10">
+<a href="https://nextjs.org/"><img src="https://skillicons.dev/icons?i=nextjs" width="45"></a><img width="10">
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" width="45"></a>
+</p>
+
+**AI / ML**
+<p align="left">
+<a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="45"></a><img width="10">
+<a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" width="45"></a><img width="10">
+<a href="https://huggingface.co/"><img src="https://skillicons.dev/icons?i=huggingface" width="45"></a><img width="10">
+<a href="https://github.com/ml-explore/mlx"><img src="https://skillicons.dev/icons?i=apple" width="45"></a><img width="10">
+<a href="https://streamlit.io/"><img src="https://skillicons.dev/icons?i=streamlit" width="45"></a>
+</p>
+
+**Backend & Infrastructure**
+<p align="left">
 <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" width="45"></a><img width="10">
 <a href="https://bun.sh/"><img src="https://skillicons.dev/icons?i=bun" width="45"></a><img width="10">
+<a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" width="45"></a><img width="10">
+<a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" width="45"></a><img width="10">
+<a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="45"></a>
+</p>
+
+**Tools**
+<p align="left">
 <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="45"></a><img width="10">
 <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="45"></a><img width="10">
 <a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" width="45"></a>
@@ -162,17 +185,9 @@ Always learning in public. Always shipping.<br>
 >
 > </details>
 
+---
 
-# GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shiv207&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shiv207&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://i.pinimg.com/originals/f5/cc/88/f5cc882eaa11aff3d06e02ebd6dbe4aa.gif" width="50%" />
-</div>
+```
+you scrolled all the way down here.
+you're one of us. come build with me → shivamshsr@gmail.com
+```

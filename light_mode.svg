@@ -8,17 +8,17 @@ font-display: swap;
 -webkit-size-adjust: 109%;
 size-adjust: 109%;
 }
-.key {fill: #1e66f5;}
-.value {fill: #4c4f69;}
-.addColor {fill: #40a02b;}
-.delColor {fill: #d20f39;}
-.cc {fill: #9ca0b0;}
-.title {fill: #8839ef; font-weight: bold;}
+.key {fill: #0969da;}
+.value {fill: #1f2328;}
+.addColor {fill: #2da44e;}
+.delColor {fill: #cf222e;}
+.cc {fill: #656d76;}
+.title {fill: #8250df; font-weight: bold;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="985px" height="560px" fill="#eff1f5" rx="15"/>
+<rect width="985px" height="560px" fill="#ffffff" rx="15"/>
 
-<text x="15" y="32" fill="#1e66f5" style="font-family:'ConsolasFallback',Consolas,monospace; font-size:14px; line-height:20px;">
+<text x="15" y="32" fill="#0969da" style="font-family:'ConsolasFallback',Consolas,monospace; font-size:14px; line-height:20px;">
 <tspan x="15" y="32">       /#######   /##   /##  /## /##   /##</tspan>
 <tspan x="15" y="52">      /##_____/  | ##  | ## | ##| ##  | ##</tspan>
 <tspan x="15" y="72">     |  ######   | ##  | ## | ##| ##  | ##</tspan>
@@ -29,11 +29,11 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="190">                                         </tspan>
 <tspan x="15" y="210">     [ Robotics Undergraduate ]          </tspan>
 <tspan x="15" y="230">     [ AI × Robotics × Systems ]         </tspan>
-<tspan x="15" y="270">     &gt; Minimal systems.                  </tspan>
-<tspan x="15" y="290">     &gt; Maximum impact.                   </tspan>
+<tspan x="15" y="270">     > Minimal systems.                  </tspan>
+<tspan x="15" y="290">     > Maximum impact.                   </tspan>
 </text>
 
-<text x="390" y="32" fill="#4c4f69">
+<text x="390" y="32" fill="#1f2328">
 <tspan x="390" y="32">shiv@github</tspan> -———————————————————————————————————————————-—-
 <tspan x="390" y="52" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Human (Reality)</tspan>
 <tspan x="390" y="72" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">Robotics Undergraduate</tspan>

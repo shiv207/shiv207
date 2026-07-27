@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="JetBrainsFallback,JetBrains Mono,Consolas,monospace" width="980px" height="580px" font-size="14px">
+<style>
+@font-face {
+src: local('JetBrains Mono'), local('JetBrainsMono'), local('Consolas'), local('Consolas Bold');
+font-family: 'JetBrainsFallback';
+font-display: swap;
+size-adjust: 105%;
+}
+.key {fill: #1e66f5;}
+.value {fill: #4c4f69;}
+.muted {fill: #6c7086;}
+.title {fill: #8839ef; font-weight: bold;}
+.separator {fill: #acb0be;}
+.logo {fill: #1e66f5;}
+text, tspan {white-space: pre;}
+</style>
+
+<!-- Background -->
+<rect width="980px" height="580px" fill="#eff1f5" rx="12"/>
+
+<!-- ========== LEFT COLUMN: SHIV LOGO ========== -->
+<text x="20" y="35" class="logo" style="font-size:13px; line-height:19px;">
+<tspan x="20" y="35">  ███████╗██╗  ██╗██╗██╗   ██╗</tspan>
+<tspan x="20" y="54">  ██╔════╝██║  ██║██║██║   ██║</tspan>
+<tspan x="20" y="73">  ███████╗███████║██║██║   ██║</tspan>
+<tspan x="20" y="92">  ╚════██║██╔══██║██║██║   ██║</tspan>
+<tspan x="20" y="111">  ███████║██║  ██║██║╚██████╔╝</tspan>
+<tspan x="20" y="130">  ╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝</tspan>
+</text>
+
+<!-- ========== RIGHT COLUMN: FASTFETCH INFO ========== -->
+<text x="380" y="24" fill="#4c4f69">shiv@github</text>
+<text x="380" y="40" class="muted">——————————————————————————————————————————————————————</text>
+
+<text x="380" y="60"><tspan class="muted">. </tspan><tspan class="key">OS</tspan><tspan class="muted">:........................ </tspan><tspan class="value">Human</tspan></text>
+<text x="380" y="79"><tspan class="muted">. </tspan><tspan class="key">Host</tspan><tspan class="muted">:...................... </tspan><tspan class="value">shiv@github</tspan></text>
+<text x="380" y="98"><tspan class="muted">. </tspan><tspan class="key">Kernel</tspan><tspan class="muted">:.................. </tspan><tspan class="value">Curiosity 6.9.0-custom</tspan></text>
+<text x="380" y="117"><tspan class="muted">. </tspan><tspan class="key">Uptime</tspan><tspan class="muted">:.................. </tspan><tspan class="value">4 years, 47 weeks, 3 days</tspan></text>
+<text x="380" y="136"><tspan class="muted">. </tspan><tspan class="key">Packages</tspan><tspan class="muted">:................ </tspan><tspan class="value">23 repos, 142★, 42 followers</tspan></text>
+<text x="380" y="155"><tspan class="muted">. </tspan><tspan class="key">Shell</tspan><tspan class="muted">:................... </tspan><tspan class="value">zsh 5.9</tspan></text>
+<text x="380" y="174"><tspan class="muted">. </tspan><tspan class="key">Editor</tspan><tspan class="muted">:.................. </tspan><tspan class="value">Neovim 0.10</tspan></text>
+<text x="380" y="193"><tspan class="muted">. </tspan><tspan class="key">Terminal</tspan><tspan class="muted">:.............. </tspan><tspan class="value">GitHub Profile</tspan></text>
+<text x="380" y="212"><tspan class="muted">. </tspan><tspan class="key">CPU</tspan><tspan class="muted">:....................... </tspan><tspan class="value">Robotics × AI × Systems</tspan></text>
+<text x="380" y="231"><tspan class="muted">. </tspan><tspan class="key">GPU</tspan><tspan class="muted">:....................... </tspan><tspan class="value">Vision-Language-Action</tspan></text>
+<text x="380" y="250"><tspan class="muted">. </tspan><tspan class="key">Memory</tspan><tspan class="muted">:.................. </tspan><tspan class="value">Building / Learning / Shipping</tspan></text>
+<text x="380" y="269"><tspan class="muted">. </tspan><tspan class="key">Disk</tspan><tspan class="muted">:...................... </tspan><tspan class="value">23 repos • 142★ • 42 followers</tspan></text>
+<text x="380" y="288"><tspan class="muted">. </tspan><tspan class="key">Colorscheme</tspan><tspan class="muted">:............ </tspan><tspan class="value">Catppuccin Latte</tspan></text>
+<text x="380" y="307"><tspan class="muted">. </tspan><tspan class="key">WM</tspan><tspan class="muted">:........................... </tspan><tspan class="value">Minimal Systems</tspan></text>
+<text x="380" y="326"><tspan class="muted">. </tspan><tspan class="key">Locale</tspan><tspan class="muted">:.................... </tspan><tspan class="value">en_US.UTF-8 (Reality)</tspan></text>
+
+<!-- Separator -->
+<text x="380" y="350" class="muted">——————————————————————————————————————————————————————</text>
+
+<!-- SKILLS -->
+<text x="380" y="370" class="title">SKILLS</text>
+
+<text x="380" y="389"><tspan class="muted">. </tspan><tspan class="key">Languages</tspan><tspan class="muted">:................ </tspan><tspan class="value">C, C++, Python, TypeScript, JavaScript</tspan></text>
+<text x="380" y="408"><tspan class="muted">. </tspan><tspan class="key">Robotics</tspan><tspan class="muted">:.................. </tspan><tspan class="value">ROS2, OpenCV, Gazebo, SLAM, Simulation</tspan></text>
+<text x="380" y="427"><tspan class="muted">. </tspan><tspan class="key">AI/ML</tspan><tspan class="muted">:..................... </tspan><tspan class="value">PyTorch, Transformers, LangGraph, RAG, Agents</tspan></text>
+<text x="380" y="446"><tspan class="muted">. </tspan><tspan class="key">Tools</tspan><tspan class="muted">:...................... </tspan><tspan class="value">Linux, Docker, Git, Bash, Neovim</tspan></text>
+
+<!-- Separator -->
+<text x="380" y="470" class="muted">——————————————————————————————————————————————————————</text>
+
+<!-- PROJECTS -->
+<text x="380" y="490" class="title">PROJECTS</text>
+
+<text x="380" y="509"><tspan class="muted">. </tspan><tspan class="value">VLA_simulated_tests</tspan><tspan class="muted">      </tspan><tspan class="muted">Vision-Language-Action for SO-101</tspan></text>
+<text x="380" y="528"><tspan class="muted">. </tspan><tspan class="value">MLX-voice-assistant</tspan><tspan class="muted">      </tspan><tspan class="muted">Local voice assistant (Apple Silicon)</tspan></text>
+<text x="380" y="547"><tspan class="muted">. </tspan><tspan class="value">AX-0-chain-of-thought</tspan><tspan class="muted">    </tspan><tspan class="muted">CoT reasoning engine (Gemini)</tspan></text>
+<text x="380" y="566"><tspan class="muted">. </tspan><tspan class="value">Deepsearch-clone</tspan><tspan class="muted">         </tspan><tspan class="muted">Open source research agent</tspan></text>
+
+<!-- Footer -->
+<text x="20" y="555" class="muted" style="font-size:11px;">you scrolled all the way down here. you&apos;re one of us. come build with me → shivamshsr@gmail.com</text>
+
+</svg>

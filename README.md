@@ -1,204 +1,296 @@
-<table width="100%">
-<tr>
-<td width="65%" valign="top">
-<h1>Hello, I'm Shivamsh 👾</h1>
-<p>
-I'm a Robotics undergrad who believes the best code is the kind you don't have to explain.
-I enjoy building things that sit at the intersection of software and the physical world from
-AI systems to robots that run across your desk.
-</p>
-<p>
-I care about clean systems, minimal interfaces, and not making future-me suffer.
-Currently deep in robotics, LLM tooling, and anything that blurs the line between
-software and the real world.
-</p>
-<p>Always learning in public. Always shipping.</p>
-</td>
-<td width="29.25%" rowspan="2" align="center" valign="top">
-<img src="images/rei.png" width="100%"/>
-</td>
-</tr>
-<tr>
-<td width="65%" valign="bottom">
-<div style="display:flex; justify-content:space-between; align-items:flex-end; gap:16px; width:100%;">
-<div>
-<b>Connect with me:</b><br/><br/>
-<a href="https://www.linkedin.com/in/shivamsh-s-r-4942742a3/"><img src="https://skillicons.dev/icons?i=linkedin" width="30"></a><img width="10">
-<a href="mailto:shivamshsr@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="30"></a><img width="10">
-<a href="https://github.com/shiv207"><img src="https://skillicons.dev/icons?i=github" width="30"></a><img width="10">
-<a href="https://x.com/RShivamsh"><img src="https://skillicons.dev/icons?i=twitter" width="30"></a>
+<!--
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  ░█▀▀░█▀▀░█▀█░█▀▄░█▀█░█▀█   ░█░░░█▀▀░█░█                                  ║
+║  ░█░░░█▀▀░█░█░█░█░█▀▀░█░█     ░█░░░█▀▀░█▀▄                                  ║
+║  ░▀▀▀░▀▀▀░▀░░░▀▀░░▀░░░▀▀▀     ░▀▀▀░▀▀▀░▀░▀                                  ║
+║                                                                              ║
+║  Terminal-style GitHub profile                                               ║
+║  Customize: Search for <!-- REPLACE --> markers                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+ALTERNATIVE ASCII LOGOS — uncomment the one you prefer, comment out the rest.
+
+VERSION 1 — Box Shadow (DEFAULT):
+
+ ███████╗██╗  ██╗██╗██╗   ██╗
+ ██╔════╝██║  ██║██║██║   ██║
+ ███████╗███████║██║██║   ██║
+ ╚════██║██╔══██║██║██║   ██║
+ ███████║██║  ██║██║╚██████╔╝
+ ╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝
+
+VERSION 2 — Bold Slant:
+
+  /$$$$$$  /$$   /$$ /$$$$$$$$ /$$   /$$
+ /$$__  $$| $$  | $$| $$_____/| $$$ | $$
+| $$  \ $$| $$  | $$| $$      | $$$$| $$
+| $$  | $$| $$  | $$| $$$$$   | $$ $$ $$
+| $$  | $$| $$  | $$| $$__/   | $$  $$$$
+| $$/$$$/| $$  | $$| $$      | $$\  $$$
+|  $$$$/ |  $$$$$$/| $$$$$$$$| $$ \  $$
+ \___/   \______/ |________/|__/  \__/
+
+VERSION 3 — Condensed Sharp:
+
+╦╔═╔═╗╔╦╗╔═╗  ╔═╗╔═╗╦═╗╔╦╗
+╠╩╗║ ║ ║ ╠═╣  ╠═╝║ ║╠╦╝║║║
+╩ ╩╚═╝ ╩ ╩ ╩  ╩  ╚═╝╩╚═╩ ╩
+
+VERSION 4 — Heavy Block:
+
+▄▄▄▄▄ ▄▄▄▄▄▄ ▄▄▄  ▄▄▄  ▄▄▄▄▄ ▄▄▄▄▄▄
+█▀▀▀▀ ▀█ ▄▀ █ █▀▀▄ █ █ █▀▀▀▄ ▀█ ▄▀ █
+█▄▄▄▄  █▄█  █ █  █ █▄▄█ █  ▄█  █▄█  █
+▀  ▀▀ ▀   ▀ ▀ ▀▀▀  ▀ ▀ ▀▀▀▀  ▀   ▀ ▀
+
+VERSION 5 — Death Metal:
+
+ ╔╦╗╔═╗╔╦╗╔═╗  ╔═╗╔═╗╦═╗╔╦╗
+  ║║║╣  ║ ╠═╣  ╠═╝║ ║╠╦╝║║║
+ ═╩╝╚═╝ ╩ ╩ ╩  ╩  ╚═╝╩╚═╩ ╩
+
+-->
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!--                             ██  HERO SECTION  ██                           -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<pre>
+
+ ███████╗██╗  ██╗██╗██╗   ██╗
+ ██╔════╝██║  ██║██║██║   ██║
+ ███████╗███████║██║██║   ██║
+ ╚════██║██╔══██║██║██║   ██║
+ ███████║██║  ██║██║╚██████╔╝
+ ╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝
+
+</pre>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="24" viewBox="0 0 300 24">
+  <text x="0" y="18" fill="#bd93f9" font-family="monospace" font-size="16" font-weight="bold">❯</text>
+  <text x="18" y="18" fill="#bac2de" font-family="monospace" font-size="16">shiv</text>
+  <text x="56" y="18" fill="#585b70" font-family="monospace" font-size="16">@</text>
+  <text x="65" y="18" fill="#bac2de" font-family="monospace" font-size="16">github</text>
+</svg>
+
+<svg width="420" height="4" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="2" x2="420" y2="2" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.4"/>
+</svg>
+
 </div>
-<div style="white-space:nowrap;">
-<img src="https://komarev.com/ghpvc/?username=shiv207&label=Profile%20views&color=0e75b6&style=flat" />
+
+<br/>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!--                            ██  FASTFETCH  ██                               -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+
+<pre>
+
+$ fastfetch
+
+OS.............. Human
+Role............ Robotics Undergraduate          <!-- REPLACE: your role -->
+Focus........... AI × Robotics × Systems        <!-- REPLACE: your focus -->
+Kernel.......... Curiosity
+Editor.......... Neovim
+Shell........... zsh
+Status.......... Building
+Learning........ Every day
+Location........ Reality
+
+</pre>
+
+<svg width="420" height="4" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="2" x2="420" y2="2" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.4"/>
+</svg>
+
+<br/>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!--                             ██  WHOAMI  ██                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+
+<pre>
+
+$ whoami
+
+I build software that escapes the screen.
+
+Interested in robotics,
+LLM tooling,
+embedded systems,
+computer vision,
+developer tooling,
+and clean software architecture.
+
+Minimal systems.
+Maximum impact.
+
+</pre>
+
+<svg width="420" height="4" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="2" x2="420" y2="2" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.4"/>
+</svg>
+
+<br/>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!--                           ██  TREE SKILLS  ██                              -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+
+<pre>
+
+$ tree skills
+
+skills                                              <!-- REPLACE: your skills -->
+├── Languages
+│   ├── C
+│   ├── C++
+│   ├── Python
+│   ├── TypeScript
+│   └── JavaScript
+│
+├── Robotics
+│   ├── ROS2
+│   ├── OpenCV
+│   ├── Gazebo
+│   └── Simulation
+│
+├── AI
+│   ├── PyTorch
+│   ├── Transformers
+│   ├── LangGraph
+│   └── Agents
+│
+└── Tools
+    ├── Linux
+    ├── Docker
+    ├── Git
+    ├── Bash
+    └── Neovim
+
+</pre>
+
+<svg width="420" height="4" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="2" x2="420" y2="2" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.4"/>
+</svg>
+
+<br/>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!--                           ██  LS PROJECTS  ██                              -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+
+<pre>
+
+$ ls projects
+
+VLA_simulated_tests/          Vision-Language-Action for SO-101 robotic arm
+MLX-voice-assistant/          Local voice assistant for Apple Silicon
+AX-0-chain-of-thought-/       Chain-of-thought reasoning engine
+Deepsearch-clone/             Open source research agent
+AI_Roast_show/                LLM roast battle arena
+
+</pre>
+
+<svg width="420" height="4" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="2" x2="420" y2="2" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.4"/>
+</svg>
+
+<br/>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!--                         ██  SYSTEM MONITOR  ██                             -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+
+<pre>
+
+$ system-monitor
+
+</pre>
+
+<div align="center">
+
+<a href="https://github.com/shiv207">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=shiv207&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=cdd6f4&icon_color=bd93f9&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shiv207&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=cdd6f4" />
+</a>
+
 </div>
-</div>
-</td>
-</tr>
-</table>
+
+<br/>
+
+<svg width="420" height="4" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="2" x2="420" y2="2" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.4"/>
+</svg>
+
+<br/>
 
 
-# Tech Stack
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!--                           ██  CAT NOW.TXT  ██                              -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
-**Languages & Frameworks**
-<p align="left">
-<a href="https://en.cppreference.com/w/c"><img src="https://skillicons.dev/icons?i=c" width="45"></a><img width="10">
-<a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=py" width="45"></a><img width="10">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="45"></a><img width="10">
-<a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" width="45"></a><img width="10">
-<a href="https://kotlinlang.org/"><img src="https://skillicons.dev/icons?i=kotlin" width="45"></a><img width="10">
-<a href="https://reactjs.org/"><img src="https://skillicons.dev/icons?i=react" width="45"></a><img width="10">
-<a href="https://nextjs.org/"><img src="https://skillicons.dev/icons?i=nextjs" width="45"></a><img width="10">
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" width="45"></a>
-</p>
+<pre>
 
-**AI / ML**
-<p align="left">
-<a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="45"></a><img width="10">
-<a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" width="45"></a><img width="10">
-<a href="https://huggingface.co/"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="45" alt="Hugging Face"></a><img width="10">
-<a href="https://github.com/ml-explore/mlx"><img src="https://skillicons.dev/icons?i=apple" width="45"></a><img width="10">
-<a href="https://streamlit.io/"><img src="https://skillicons.dev/icons?i=streamlit" width="45"></a>
-</p>
+$ cat now.txt                                         <!-- REPLACE: update often -->
 
-**Backend & Infrastructure**
-<p align="left">
-<a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" width="45"></a><img width="10">
-<a href="https://bun.sh/"><img src="https://skillicons.dev/icons?i=bun" width="45"></a><img width="10">
-<a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" width="45"></a><img width="10">
-<a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" width="45"></a><img width="10">
-<a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="45"></a>
-</p>
+Current focus:  Robotics × LLM integration
+Learning:       ROS2, MuJoCo, vision-language models
+Building:       Autonomous systems that bridge perception and action
+Exploring:      Local-first AI, edge inference, embodied intelligence
 
-**Tools**
-<p align="left">
-<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="45"></a><img width="10">
-<a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="45"></a><img width="10">
-<a href="https://neovim.io/"><img src="https://skillicons.dev/icons?i=neovim" width="45" alt="Neovim"></a><img width="10">
-<a href="https://developer.apple.com/xcode/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" width="45" alt="Xcode"></a><img width="10">
-<a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio" width="45" alt="Android Studio"></a><img width="10">
-<a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux" width="45"></a>
-</p>
+</pre>
+
+<svg width="420" height="4" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="2" x2="420" y2="2" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.4"/>
+</svg>
+
+<br/>
 
 
-# Projects
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!--                            ██  CONTACT  ██                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
-> ## Projects
->
-> <details>
-> <summary>&nbsp;Click Here</summary>
->
-> <br/>
->
-> <table width="100%" style="margin-top:14px; border-collapse:collapse;">
->   <tr>
->     <td width="320" valign="middle" align="center">
->       <a href="https://github.com/shiv207/VLA_simulated_tests">
->         <img src="images/VLA.png" alt="VLA Simulation preview" width="300" style="border-radius:12px;" />
->       </a>
->     </td>
->     <td valign="middle" style="padding:16px; vertical-align:middle;">
->       <h3 style="margin:0 0 6px 0;">VLA Simulation — MuJoCo + LLM</h3>
->       <p style="margin:0;">
->         A Vision-Language-Action system for the SO-101 robotic arm. Combines MuJoCo physics, Groq (Llama 3) for planning, and Gemini Vision for real-time perception. Achieves ~80% plan success rate on pick-and-place tasks with sub-200ms LLM inference.
->       </p>
->       <div align="right">
->         <a href="https://github.com/shiv207/VLA_simulated_tests">
->           <img src="https://skillicons.dev/icons?i=github" width="28" alt="github" />
->         </a>
->       </div>
->     </td>
->   </tr>
-> </table>
->
-> <table width="100%" style="margin-top:14px; border-collapse:collapse;">
->   <tr>
->     <td width="320" valign="middle" align="center">
->       <a href="https://github.com/shiv207/MLX-voice-assistant">
->         <img src="images/MLX.png" alt="MLX Voice Assistant preview" width="300" style="border-radius:12px;" />
->       </a>
->     </td>
->     <td valign="middle" style="padding:16px; vertical-align:middle;">
->       <h3 style="margin:0 0 6px 0;">MLX Voice Assistant</h3>
->       <p style="margin:0;">
->         A fully local, privacy-first voice assistant built for Apple Silicon. Uses Whisper for speech recognition and runs Gemma 3 4B (4-bit quantized) via MLX — no cloud calls, no data leaving your device. Wake word: "Travis".
->       </p>
->       <div align="right">
->         <a href="https://github.com/shiv207/MLX-voice-assistant">
->           <img src="https://skillicons.dev/icons?i=github" width="28" alt="github" />
->         </a>
->       </div>
->     </td>
->   </tr>
-> </table>
->
-> <table width="100%" style="margin-top:14px; border-collapse:collapse;">
->   <tr>
->     <td width="320" valign="middle" align="center">
->       <a href="https://github.com/shiv207/AX-0-chain-of-thought-">
->         <img src="images/AX1.png" alt="AX-0 preview" width="300" style="border-radius:12px;" />
->       </a>
->     </td>
->     <td valign="middle" style="padding:16px; vertical-align:middle;">
->       <h3 style="margin:0 0 6px 0;">AX-0: Chain-of-Thought Reasoning Engine</h3>
->       <p style="margin:0;">
->         An open reimplementation of o1-style chain-of-thought reasoning using Gemini's API and a sequential multi-agent architecture. Proposes and iteratively refines solutions through reflection at each stage — built to explore how far smaller models can go.
->       </p>
->       <div align="right">
->         <a href="https://github.com/shiv207/AX-0-chain-of-thought-">
->           <img src="https://skillicons.dev/icons?i=github" width="28" alt="github" />
->         </a>
->       </div>
->     </td>
->   </tr>
-> </table>
->
-> <table width="100%" style="margin-top:14px; border-collapse:collapse;">
->   <tr>
->     <td width="320" valign="middle" align="center">
->       <a href="https://github.com/shiv207/Deepsearch-clone-opensource">
->         <img src="images/deepreasearch.png" alt="Deepsearch preview" width="300" style="border-radius:12px;" />
->       </a>
->     </td>
->     <td valign="middle" style="padding:16px; vertical-align:middle;">
->       <h3 style="margin:0 0 6px 0;">Deepsearch — Open Source Research Agent</h3>
->       <p style="margin:0;">
->         An experimental clone of deep web research tools like Grok-3, built with DeepSeek R1 via Groq and SerpAPI. Implements multi-source validation, semantic scoring, and research-paper-style output. Proof that meaningful research automation is achievable with open models.
->       </p>
->       <div align="right">
->         <a href="https://github.com/shiv207/Deepsearch-clone-opensource">
->           <img src="https://skillicons.dev/icons?i=github" width="28" alt="github" />
->         </a>
->       </div>
->     </td>
->   </tr>
-> </table>
->
-> <table width="100%" style="margin-top:14px; border-collapse:collapse;">
->   <tr>
->     <td width="320" valign="middle" align="center">
->       <a href="https://github.com/shiv207/AI_Roast_show">
->         <img src="images/chainofthought.png" alt="AI Roast Show preview" width="300" style="border-radius:12px;" />
->       </a>
->     </td>
->     <td valign="middle" style="padding:16px; vertical-align:middle;">
->       <h3 style="margin:0 0 6px 0;">AI Roast Show</h3>
->       <p style="margin:0;">
->         A Streamlit app that pits LLMs against each other in a real-time roast battle. Supports any OpenRouter model, configurable temperature and token limits, and live token-by-token streaming. Built for fun — but it's good multi-agent streaming architecture under the hood.
->       </p>
->       <div align="right">
->         <a href="https://github.com/shiv207/AI_Roast_show">
->           <img src="https://skillicons.dev/icons?i=github" width="28" alt="github" />
->         </a>
->       </div>
->     </td>
->   </tr>
-> </table>
->
-> </details>
+<pre>
 
----
+$ contact                                             <!-- REPLACE: your links -->
 
-```
+github      →  github.com/shiv207
+linkedin    →  linkedin.com/in/shivamsh-s-r-4942742a3
+email       →  shivamshsr@gmail.com
+twitter     →  x.com/RShivamsh
+
+</pre>
+
+<br/>
+
+<svg width="420" height="4" xmlns="http://www.w3.org/2000/svg">
+  <line x1="0" y1="2" x2="420" y2="2" stroke="#bd93f9" stroke-width="1" stroke-opacity="0.4"/>
+</svg>
+
+<br/>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!--                            ██  FOOTER  ██                                  -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<pre>
 you scrolled all the way down here.
 you're one of us. come build with me → shivamshsr@gmail.com
-```
+</pre>
+
+</div>

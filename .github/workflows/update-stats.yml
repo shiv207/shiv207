@@ -2,13 +2,17 @@ name: update-stats
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "17 * * * *"    # hourly — commits only when a number actually changes
   push:
     branches: [main]
     paths:
-      - "scripts/update-stats.sh"
+      - "scripts/**"
       - ".github/workflows/update-stats.yml"
   workflow_dispatch:        # manual trigger
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -20,11 +24,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Run stats updater
-        run: bash scripts/update-stats.sh
+      - name: Render profile cards
+        run: python3 scripts/generate.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

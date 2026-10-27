@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sys
+import textwrap
 import urllib.request
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -20,14 +21,8 @@ ROOT = Path(__file__).resolve().parent.parent
 API = "https://api.github.com"
 
 # ─── Content ───────────────────────────────────────────────────────────────
-TAGLINES = [
-    None,
-    "[ Robotics Undergraduate ]",
-    "[ AI × Robotics × Systems ]",
-    None,
-    "> Minimal systems.",
-    "> Maximum impact.",
-]
+QUOTE = ("I don't want AI to think like a human. I want to build something "
+         "that makes humans question why they thought they were special.")
 
 def sections(s):
     """Right-column layout. Each section is (title, [(key, value) | None])."""
@@ -35,20 +30,22 @@ def sections(s):
         ("shiv@github", [
             ("OS", "Human (Reality)"),
             ("Role", "Robotics Undergraduate"),
+            ("Focus", "Vision-Language-Action (VLA) models"),
             ("Repos", f"{s['repos']} public repositories"),
             ("Followers", f"{s['followers']} developers"),
             ("Editor", "Neovim 0.10 / zsh 5.9"),
             None,
             ("Languages", "C, C++, Python, TypeScript, JS"),
-            ("Robotics", "ROS2, OpenCV, Gazebo, SLAM"),
+            ("Robotics", "VLAs, Isaac Sim, MuJoCo, ROS2, OpenCV"),
             ("AI / ML", "PyTorch, Transformers, LangGraph"),
             ("Tools", "Linux, Docker, Git, Bash, Neovim"),
         ]),
         ("Projects", [
-            ("VLA Simulation", "MuJoCo + LLM (SO-101 arm)"),
-            ("MLX Voice Assistant", "Local Whisper + Gemma 3 4B"),
-            ("AX-0 Reasoning", "Open o1-style CoT (Gemini)"),
-            ("Deepsearch Clone", "Open source research agent"),
+            ("Marvin", "AI desk-companion robot + firmware"),
+            ("Jester", "Dual Dobot arm teleop @ 50 Hz"),
+            ("VLA Sim", "VLA on an SO-101 arm in MuJoCo"),
+            ("DAGger", "Rust CVE reachability via graph math"),
+            ("GPT-OSS 20B", "LoRA fine-tune for agentic tool use"),
         ]),
         ("Contact", [
             ("GitHub", f"github.com/{USERNAME}"),
@@ -223,9 +220,10 @@ def render(stats, theme):
     )
 
     tag_y = LOGO_Y + len(parse_logo()) * CELL_H + 46
+    quote = textwrap.wrap(f"\u201c{QUOTE}\u201d", 36)
     left = "\n".join(
         f'<tspan x="27" y="{tag_y + i * LINE_H}">{escape(t)}</tspan>'
-        for i, t in enumerate(TAGLINES) if t
+        for i, t in enumerate(quote)
     )
 
     t = theme
@@ -251,7 +249,7 @@ text, tspan {{white-space: pre;}}
 {render_logo(parse_logo(), t['logo'])}
 </g>
 
-<text fill="{t['tag']}" font-size="14px">
+<text fill="{t['tag']}" font-size="14px" font-style="italic">
 {left}
 </text>
 

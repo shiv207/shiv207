@@ -50,7 +50,7 @@ def sections(s):
         ("Contact", [
             ("GitHub", f"github.com/{USERNAME}"),
             ("LinkedIn", "linkedin.com/in/shivamsh-s-r"),
-            ("Email", "shivamshsr@gmail.com"),
+            ("Email", "shiv24.dev@gmail.com"),
             ("Twitter", "x.com/RShivamsh"),
         ]),
         ("GitHub Stats", [

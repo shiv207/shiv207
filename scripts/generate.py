@@ -59,8 +59,8 @@ def sections(s):
             [("Repos", fmt(s["repos"])), ("Stars", fmt(s["stars"]))],
             [("Commits", fmt(s["commits"])), ("Followers", fmt(s["followers"]))],
             ("Contributions (past year)", fmt(s["contributions"])),
-            [("Lines Added", f"+{fmt(s['lines_added'])}"),
-             ("Lines Removed", f"-{fmt(s['lines_removed'])}")],
+            [("Lines Added", f"+{fmt(s['lines_added'])}", "added"),
+             ("Lines Removed", f"-{fmt(s['lines_removed'])}", "removed")],
         ]),
     ]
 
@@ -70,12 +70,14 @@ THEMES = {
         "bg": "#0d1117", "key": "#58a6ff", "value": "#e6edf3",
         "cc": "#8b949e", "title": "#d2a8ff", "tag": "#58a6ff",
         "logo": {},
+        "added": "#3fb950", "removed": "#f85149",  # GitHub dark diff colors
     },
     "light_mode.svg": {
         "bg": "#ffffff", "key": "#0969da", "value": "#1f2328",
         "cc": "#656d76", "title": "#8250df", "tag": "#0969da",
         # white highlights would vanish on a white card
         "logo": {"#FFFFFF": "#d0d7de"},
+        "added": "#1a7f37", "removed": "#cf222e",  # GitHub light diff colors
     },
 }
 
@@ -232,21 +234,25 @@ def render_logo(rows, remap):
 
 
 # ─── Text rows ─────────────────────────────────────────────────────────────
-def kv(key, value, width):
+def kv(key, value, width, cls="value"):
     """'. Key: ...... value' padded with dots to exactly `width` chars."""
     dots = width - len(key) - len(value) - 5
     return (f'<tspan class="cc">. </tspan><tspan class="key">{escape(key)}</tspan>:'
             f'<tspan class="cc"> {"." * max(dots, 1)} </tspan>'
-            f'<tspan class="value">{escape(value)}</tspan>')
+            f'<tspan class="{cls}">{escape(value)}</tspan>')
 
 
 def row_markup(item):
     if item is None:
         return '<tspan class="cc">. </tspan>'
     if isinstance(item, list):  # two kv pairs side by side
-        (k1, v1), (k2, v2) = item
+        (k1, v1, *c1), (k2, v2, *c2) = item
         half = (LINE_CHARS - 3) // 2
-        return f"{kv(k1, v1, half)} | {kv(k2, v2, LINE_CHARS - 3 - half)}"
+        return (f"{kv(k1, v1, half, *c1)} | "
+                f"{kv(k2, v2, LINE_CHARS - 3 - half, *c2)}")
+    if isinstance(item, tuple) and len(item) == 3:
+        k, v, c = item
+        return kv(k, v, LINE_CHARS, c)
     return kv(*item, LINE_CHARS)
 
 
@@ -291,6 +297,8 @@ size-adjust: 109%;
 }}
 .key {{fill: {t['key']};}}
 .value {{fill: {t['value']};}}
+.added {{fill: {t['added']};}}
+.removed {{fill: {t['removed']};}}
 .cc {{fill: {t['cc']};}}
 .title {{fill: {t['title']}; font-weight: bold;}}
 text, tspan {{white-space: pre;}}

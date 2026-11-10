@@ -10,6 +10,8 @@ size-adjust: 109%;
 }
 .key {fill: #0969da;}
 .value {fill: #1f2328;}
+.added {fill: #1a7f37;}
+.removed {fill: #cf222e;}
 .cc {fill: #656d76;}
 .title {fill: #8250df; font-weight: bold;}
 text, tspan {white-space: pre;}
@@ -312,8 +314,8 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="532"><tspan class="cc">. </tspan></tspan>
 <tspan x="390" y="552"><tspan class="title">- GitHub Stats</tspan> -————————————————————————————————————————————</tspan>
 <tspan x="390" y="572"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">45</tspan> | <tspan class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">36</tspan></tspan>
-<tspan x="390" y="592"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">640</tspan> | <tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">27</tspan></tspan>
-<tspan x="390" y="612"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">731</tspan></tspan>
-<tspan x="390" y="632"><tspan class="cc">. </tspan><tspan class="key">Lines Added</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">+341,085</tspan> | <tspan class="cc">. </tspan><tspan class="key">Lines Removed</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">-56,860</tspan></tspan>
+<tspan x="390" y="592"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">981</tspan> | <tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">27</tspan></tspan>
+<tspan x="390" y="612"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">732</tspan></tspan>
+<tspan x="390" y="632"><tspan class="cc">. </tspan><tspan class="key">Lines Added</tspan>:<tspan class="cc"> .... </tspan><tspan class="added">+341,091</tspan> | <tspan class="cc">. </tspan><tspan class="key">Lines Removed</tspan>:<tspan class="cc"> .... </tspan><tspan class="removed">-56,866</tspan></tspan>
 </text>
 </svg>

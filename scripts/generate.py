@@ -12,6 +12,8 @@ import os
 import re
 import sys
 import textwrap
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -57,6 +59,8 @@ def sections(s):
             [("Repos", fmt(s["repos"])), ("Stars", fmt(s["stars"]))],
             [("Commits", fmt(s["commits"])), ("Followers", fmt(s["followers"]))],
             ("Contributions (past year)", fmt(s["contributions"])),
+            [("Lines Added", f"+{fmt(s['lines_added'])}"),
+             ("Lines Removed", f"-{fmt(s['lines_removed'])}")],
         ]),
     ]
 
@@ -97,17 +101,63 @@ def request(url, body=None):
         return json.load(r)
 
 
+def fetch_lines(repo_full_names):
+    """Total additions/deletions by USERNAME across the given repos.
+
+    Uses the contributor statistics endpoint, which GitHub computes
+    asynchronously — it returns 202 while calculating, so we retry a few
+    times and skip repos that never settle (empty repos return 409/204).
+    Forks are excluded by the caller so upstream code isn't counted.
+    """
+    added = removed = 0
+    for full in repo_full_names:
+        data = None
+        for _ in range(6):
+            req = urllib.request.Request(f"{API}/repos/{full}/stats/contributors")
+            token = os.environ.get("GITHUB_TOKEN")
+            req.add_header("Authorization", f"Bearer {token}")
+            req.add_header("Accept", "application/vnd.github+json")
+            try:
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    if r.status == 202:
+                        time.sleep(2)
+                        continue
+                    body = r.read()
+                    if not body.strip():
+                        data = []
+                    else:
+                        data = json.loads(body)
+                    break
+            except urllib.error.HTTPError:
+                data = []  # empty repo (409) or missing stats — skip
+                break
+        else:
+            data = []
+            print(f"  ! stats still computing for {full}; skipped")
+        for contributor in data or []:
+            if (contributor.get("author") or {}).get("login") == USERNAME:
+                added += sum(w.get("a", 0) for w in contributor.get("weeks", []))
+                removed += sum(w.get("d", 0) for w in contributor.get("weeks", []))
+    return added, removed
+
+
 def fetch_stats():
     print(f"⟳ Fetching stats for {USERNAME}...")
     user = request(f"{API}/users/{USERNAME}")
 
     stars, page = 0, 1
+    owned_repos = []
     while True:
         repos = request(f"{API}/users/{USERNAME}/repos?per_page=100&type=owner&page={page}")
         if not repos:
             break
         stars += sum(r["stargazers_count"] for r in repos)
+        owned_repos.extend(repos)
         page += 1
+
+    lines_added, lines_removed = fetch_lines(
+        [r["full_name"] for r in owned_repos if not r.get("fork")]
+    )
 
     commits = request(f"{API}/search/commits?q=author:{USERNAME}&per_page=1")["total_count"]
 
@@ -121,6 +171,8 @@ def fetch_stats():
         "stars": stars,
         "commits": commits,
         "contributions": contributions,
+        "lines_added": lines_added,
+        "lines_removed": lines_removed,
     }
     for k, v in stats.items():
         print(f"  {k:<14}{v}")

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="640px" viewBox="0 0 985 640" font-size="15px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="660px" viewBox="0 0 985 660" font-size="15px">
 <style>
 @font-face {
 src: local('Consolas'), local('Consolas Bold'), local('JetBrains Mono');
@@ -14,7 +14,7 @@ size-adjust: 109%;
 .title {fill: #8250df; font-weight: bold;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="985px" height="640px" fill="#ffffff" rx="15"/>
+<rect width="985px" height="660px" fill="#ffffff" rx="15"/>
 
 <g shape-rendering="crispEdges">
 <rect x="48" y="22" width="7" height="14" fill="#AAAAAA"/>
@@ -312,7 +312,8 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="532"><tspan class="cc">. </tspan></tspan>
 <tspan x="390" y="552"><tspan class="title">- GitHub Stats</tspan> -————————————————————————————————————————————</tspan>
 <tspan x="390" y="572"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">45</tspan> | <tspan class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">36</tspan></tspan>
-<tspan x="390" y="592"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">638</tspan> | <tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">27</tspan></tspan>
-<tspan x="390" y="612"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">729</tspan></tspan>
+<tspan x="390" y="592"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">979</tspan> | <tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">27</tspan></tspan>
+<tspan x="390" y="612"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">730</tspan></tspan>
+<tspan x="390" y="632"><tspan class="cc">. </tspan><tspan class="key">Lines Added</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">+341,008</tspan> | <tspan class="cc">. </tspan><tspan class="key">Lines Removed</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">-56,850</tspan></tspan>
 </text>
 </svg>

@@ -291,7 +291,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="72"><tspan class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">Robotics Undergraduate</tspan></tspan>
 <tspan x="390" y="92"><tspan class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">Vision-Language-Action (VLA) models</tspan></tspan>
 <tspan x="390" y="112"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">45 public repositories</tspan></tspan>
-<tspan x="390" y="132"><tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">27 developers</tspan></tspan>
+<tspan x="390" y="132"><tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">28 developers</tspan></tspan>
 <tspan x="390" y="152"><tspan class="cc">. </tspan><tspan class="key">Editor</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">Neovim 0.10 / zsh 5.9</tspan></tspan>
 <tspan x="390" y="172"><tspan class="cc">. </tspan></tspan>
 <tspan x="390" y="192"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">C, C++, Python, TypeScript, JS</tspan></tspan>
@@ -320,8 +320,8 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="652"><tspan class="cc">. </tspan></tspan>
 <tspan x="390" y="672"><tspan class="title">- GitHub Stats</tspan> -————————————————————————————————————————————</tspan>
 <tspan x="390" y="692"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">45</tspan> | <tspan class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">36</tspan></tspan>
-<tspan x="390" y="712"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">665</tspan> | <tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">27</tspan></tspan>
-<tspan x="390" y="732"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">758</tspan></tspan>
-<tspan x="390" y="752"><tspan class="cc">. </tspan><tspan class="key">Lines Added</tspan>:<tspan class="cc"> .... </tspan><tspan class="added">+341,239</tspan> | <tspan class="cc">. </tspan><tspan class="key">Lines Removed</tspan>:<tspan class="cc"> .... </tspan><tspan class="removed">-56,997</tspan></tspan>
+<tspan x="390" y="712"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">666</tspan> | <tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">28</tspan></tspan>
+<tspan x="390" y="732"><tspan class="cc">. </tspan><tspan class="key">Contributions (past year)</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">759</tspan></tspan>
+<tspan x="390" y="752"><tspan class="cc">. </tspan><tspan class="key">Lines Added</tspan>:<tspan class="cc"> .... </tspan><tspan class="added">+341,245</tspan> | <tspan class="cc">. </tspan><tspan class="key">Lines Removed</tspan>:<tspan class="cc"> .... </tspan><tspan class="removed">-57,003</tspan></tspan>
 </text>
 </svg>
